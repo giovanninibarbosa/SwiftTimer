@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     @IBAction func startButton(sender: UIButton) {
         if timerRunning == false {
-            timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.Counting) , userInfo: nil, repeats: true)
+            timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.Counting) , userInfo: nil, repeats: true)    
             timerRunning = true
         }
     }
